@@ -52,15 +52,25 @@ img {
 /* Mobile Layout Header Navigation */
 header {
   background-color: #2b3d57;
+  width: 100vw;
 }
 
 nav {
-  padding: 1rem 0;
-  width: 80vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #2b3d57;
+  padding: 1rem 2rem;
+  width: 100vw;
   margin-inline: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+h1 {
+  margin-top: 100px;
 }
 
 #nav-image-container {
