@@ -391,8 +391,19 @@ figcaption {
   padding: 2rem 4rem;
   gap: 2rem;
   }
-
 }
+
+/* Footer layout */
+footer {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  footer {
+    padding: 1rem;
+  }  
+}
+
 
 
 
