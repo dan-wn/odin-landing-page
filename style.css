@@ -111,7 +111,7 @@ ul li {
   visibility: visible;
 }
 
-/* Navigation Desktop Layout  */
+/* Navigation Laptop Layout  */
 @media (min-width: 760px) {
   
   ul {
@@ -130,6 +130,19 @@ ul li {
   #open-menu {
     display: none;
   }
+}
+
+/* Navigation Desktop Layout */
+@media (min-width: 1024px) {
+  nav {
+    padding: 0.5rem 3rem;
+    font-size: 1.2rem;
+  }
+
+  #nav-image-container {
+    width: 200px;
+  }
+
 }
 
 /*  Hero Section Mobile Layout  */
