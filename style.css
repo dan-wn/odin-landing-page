@@ -337,6 +337,63 @@ figcaption {
   }
 }
 
+/* Watch now section mobile layout */
+#watch-now-section {
+  min-height: 30vh;
+  background-color: #F9FAF8;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#watch-now-section p {
+  margin: 0;
+}
+
+#watch-now-section article {
+  background-color: #3882F6;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 70vw;
+}
+
+#watch-now-section button {
+  color: inherit;
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+  padding: 0.7rem;
+  border-radius: 1rem;
+  font-weight: 700;
+}
+
+#watch-now-subheading {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/* Watch now section desktop layout */
+@media (min-width: 1024px) {
+  #watch-now-section {
+  min-height: 50vh;
+}
+
+  #watch-now-section article {
+  min-width: 70vw;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 4rem;
+  gap: 2rem;
+  }
+
+}
+
 
 
 
