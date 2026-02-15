@@ -230,12 +230,7 @@ h2 {
   margin-bottom: 0;
 }
 
-hr {
-  border: none;
-  background-color: #2b3d57;
-  height: 2px;
-  margin-bottom: 2rem;
-}
+
 
 figure {
   display: flex;
@@ -402,6 +397,61 @@ footer {
   footer {
     padding: 1rem;
   }  
+}
+
+/* 1440px breakpoint */ 
+@media (min-width: 1440px) {
+
+  body {
+    font-size: 1.4rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  blockquote p {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: inherit;
+  }
+
+  #special-char-section {
+    padding: 5rem 0 10rem 0;
+    color: #2b3d57;
+    background-color: #F9FAF8;
+    margin-bottom: 0;
+  }
+
+  #special-char-section h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    
+  }
+
+  #quote-section {
+    min-width: 60vw;
+  }
+
+  #quote-section p {
+    font-size: 2rem;
+  }
+
+  #watch-now-section article {
+    padding: 4rem;
+    gap: 10rem;
+  }
+
+  #watch-now-subheading {
+    font-size: 2rem;
+  }
+
+  #watch-now-section button:hover {
+    transform: translateY(-4px);
+    box-shadow: 5px 5px #1F2937;
+  }
 }
 
 
