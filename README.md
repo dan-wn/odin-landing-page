@@ -1,6 +1,6 @@
-# odin-landing-page
+# Project: Landing Page
 
-A landing page built with HTML and CSS.
+A landing page project built with basic HTML and CSS.
 
 ## Live Demo
 
@@ -38,6 +38,7 @@ I wanted to build a solid foundational knowledge on CSS before using any framewo
 
 ## 🚀 Future Improvements
 
+- Make fully responsive websites
 - Improve overall code structure
 - Prevent unnecessary repetition on styling
 - Know when to use what
